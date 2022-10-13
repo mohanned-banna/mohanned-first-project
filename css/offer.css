@@ -1,0 +1,45 @@
+/* offer section */
+
+.offer{
+    height: 100vh;
+ }
+ .offer-item{
+    
+    width: 30%;
+    margin-bottom: 20px;
+    border: 1px solid #e8e8e8;
+    float: left;
+    padding: 30px 15px 30px 70px;
+    position: relative;
+    
+  }
+ 
+ 
+  .offer-item.mg{
+    margin-right: 5%;
+    margin-left: 5%;
+  }
+  .offer-item.four,.offer-item.five ,.offer-item.six{
+    margin-top: 5%;
+  }
+ 
+  .offer-item .icon{
+    color: var(--maincolor);
+    text-align: left;
+    position: absolute;
+    top: 30px;
+    left: 20px;
+  }
+  .offer-item-title{
+    text-transform: capitalize;
+    margin-bottom: 10px;
+    transition: color 0.5s;
+  }
+  .offer-item-p{
+    line-height: 1.5;
+    margin-bottom: 15px;
+    color: var(--graycolor);
+  }
+  .offer-item:hover .offer-item-title{
+    color: white;
+  }

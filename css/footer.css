@@ -1,0 +1,33 @@
+.footer{
+    background-color: #1c1d21;
+    height: 45vh;
+     text-align: center;
+     padding: 60px 0;
+ }
+ .footer-links{
+    list-style-type: none;
+    margin: 20px 0px;
+ }
+ .footer-links li{
+    display: inline-block;
+ }
+ 
+ .footer li a i{
+    float: left;
+    margin: 8px;
+    width: 50px;
+    height: 50px;
+    background-color: var(--maincolor);
+    color: white;
+    line-height: 50px;
+    border-radius: 3px;
+    
+ }
+ .footer-parg{
+    
+    text-transform: uppercase;
+    color: var(--graycolor);
+    text-align: center;
+    margin-top: 30px;
+    font-size: 14px;
+ }

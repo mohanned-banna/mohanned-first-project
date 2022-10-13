@@ -1,0 +1,81 @@
+/* Team section */
+
+.team{
+    height: 100vh;
+ }
+ .team-content{
+ overflow: hidden;
+ }
+ 
+ .team-item {
+    width: 30%;
+    float: left;
+    background-color: #e8e8e8;
+    margin: 0 20px ;
+    padding: 40px 15px;
+    text-align: center;
+ }
+ .team-img{
+    width: 90%;
+    margin: auto;
+    position: relative;
+ }
+  .team-overlay{
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: rgba(0,0,0, 0.5);
+    opacity: 0;
+    visibility: hidden;
+    
+ 
+ }
+ 
+ .team-img .team-overlay a {
+    display: block;
+    width: 40px;
+    height: 40px;
+    background-color: #7ba7ff;
+    color: white;
+    margin-left: auto ;
+    
+ 
+ }
+ .team-img .team-overlay a i {
+    line-height: 40px;
+ 
+ }
+ .team-img img{
+    width: 100%;
+    margin: auto;
+ }
+ .team-desc .team-name{
+    margin-top: 20px;
+    line-height: 2; 
+    color: #222;
+ 
+ }
+ .team-desc .team-name-job{
+    color: var(--graycolor);
+    text-transform: uppercase;
+    font-size: 14px;
+ }
+ .team-item:hover .team-overlay{
+    opacity: 1;
+    visibility: visible;
+    transition: opacity 0.6s;
+    
+ }
+ .team-item.ttd-effect {
+  z-index: 1;
+ }
+ .team-item:hover .team-desc .team-name{
+    color: white;
+    transition: color 0.5s;
+ }
+ .team-item:hover .team-desc .team-name-job{
+    color:var(--maincolor);
+    transition: color 0.5s;
+ }
